@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/images/logo.svg">
+  <title>Foodhub</title>
+  <link rel="stylesheet" href="./foodhub.css">
+  <link rel="stylesheet" href="./media_query.css">
+<!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+
+   <!-- HEADER -->
+
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="./assets/images/logo.svg" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="nav-link">Our Menu</a>
+            </li>
+
+            <li>
+              <a href="#testimonials" class="nav-link">Testimonials</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <a href="https://www.zomato.com/" target="_blank">
+              <button class="shopping-cart-btn">
+                <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+                <span class="count">5</span>
+              </button>
+            </a>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+        <ul class="cart-box-ul">
+
+          <h4 class="cart-h4">Your order.</h4>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Saumon gravlax</h5>
+              <p class="product-price">
+                <span class="small">$</span>9
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Chevrefried with honey</h5>
+              <p class="product-price">
+                <span class="small">$</span>14
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Crispy fish</h5>
+              <p class="product-price">
+                <span class="small">$</span>4
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Stracciatella</h5>
+              <p class="product-price">
+                <span class="small">$</span>11
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Sea bream carpaccio</h5>
+              <p class="product-price">
+                <span class="small">$</span>19
+              </p>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="cart-btn-group">
+          <button class="btn btn-secondary">View order</button>
+          <button class="btn btn-primary">Checkout</button>
+        </div>
+
+      </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME SECTION
+      -->
+
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+
+          <h1 class="main-heading">We do not cook, we create your emotions!</h1>
+
+          <p class="home-text">
+            Gather, Savor, Repeat at Food Hub.Your Go-To Spot for Great Taste.Where Every Bite Feels Like Home.
+          </p>
+
+          <div class="btn-group">
+
+            <a href="#menu">
+              <button class="btn btn-primary btn-icon">
+                <img src="./assets/images/menu.svg" alt="menu icon">
+                Our menu
+              </button>
+            </a>
+
+            <a href="#about">
+              <button class="btn btn-secondary btn-icon">
+                <img src="./assets/images/arrow.svg" alt="menu icon">
+                Discover Us
+              </button>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="./assets/images/biriyani.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/meatballs.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/grilledchicken.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+          
+
+          
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT SECTION
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+            <img src="./assets/images/aboutchef.jpg" alt="about image" class="about-img" width="250">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              <p class="number-lg">10</p>
+              <p class="text-md">Years <br> Experiense</p>
+            </div>
+          </div>
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+
+        </div>
+
+        <div class="about-right">
+
+          <h2 class="section-title">Redefining the Dining Experience</h2>
+
+          <p class="section-text" style="text-align: justify;">
+            At Food Hub, we believe that dining is more than just a meal  it’s an experience to be savored and remembered. Our commitment to quality, creativity, and exceptional service sets us apart. Each dish is crafted with passion and precision, combining fresh ingredients with bold flavors that excite the senses. From the first bite to the last, we strive to make every moment at Food Hub a memorable journey, where great taste meets innovation in a warm and welcoming atmosphere. Join us and discover what it means to truly redefine the dining experience.
+          </p>
+
+          <p class="section-text" style="text-align: justify;">
+            Because at Food Hub, every meal is crafted to be more than just food – it’s an experience meant to delight, surprise, and bring people together.
+          </p>
+
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICES SECTION
+      -->
+
+      <section class="services" id="services">
+
+        <div class="service-card">
+
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">A Hub of Flavor in Every Bite</h3>
+
+          <p class="card-text">
+            Every bite bursts with delicious flavors that excite your taste buds.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">A Menu Full of Favorites</h3>
+
+          <p class="card-text">
+            Discover a selection of beloved dishes that keep you coming back for more.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Hassle-Free Online Ordering Experience</h3>
+
+          <p class="card-text">
+            Order your favorites easily with just a few clicks
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Crafted by Passionate, Skilled Chefs</h3>
+
+          <p class="card-text">
+            Our chefs pour their passion into every dish they create.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">05</p>
+
+          <h3 class="card-heading">Exceptional Service, Every Time</h3>
+
+          <p class="card-text">
+            Enjoy attentive and friendly service with every visit.
+          </p>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PRODUCT SECTION
+      -->
+
+      <section class="product" id="menu" style="justify-items: center;">
+
+        <h2 class="section-title">Taste Our Creations</h2>
+
+        <p class="section-text">
+          Explore our delicious creations!
+        </p>
+
+        <div class="products-grid">
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/chickennoodles.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Sizzling Chicken Noodles</h3>
+
+                  <p class="product-price">
+                    <span class="small">₹</span>170
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Tender chicken and fresh vegetables tossed in savory, wok-fried noodles with a hint of spice. A sizzling flavor experience in every bite
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/chickenbiriyani.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Royal Chicken Biryani</h3>
+
+                  <p class="product-price">
+                    <span class="small">₹</span>165
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Aromatic basmati rice layered with tender, marinated chicken, slow-cooked to perfection with flavorful spices. Each bite brings a burst of rich, authentic taste fit for a royal feast!
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/butterchicken.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Butter Chicken</h3>
+
+                  <p class="product-price">
+                    <span class="small">₹</span>150
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Juicy chicken simmered in a creamy, spiced tomato sauce with a hint of butter. This classic dish is rich, flavorful, and perfectly comforting with every bite!
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/keralasadhya.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name"> Kerala Sadhya</h3>
+
+                  <p class="product-price">
+                    <span class="small">₹</span>135
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  A grand vegetarian feast featuring a colorful array of traditional Kerala dishes, served on a banana leaf. From tangy curries to crisp papadams and sweet payasam, each dish celebrates the authentic flavors of Kerala cuisine                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/masaladosa.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+                
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Golden Masala Dosa</h3>
+
+                  <p class="product-price">
+                    <span class="small">₹</span>120
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  A crispy, golden rice crepe filled with a spiced potato mixture, served with fresh coconut chutney and tangy sambar. A perfect blend of flavors and textures in every bite!
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/burger.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Crispy Cluck Burger</h3>
+
+                  <p class="product-price">
+                    <span class="small">₹</span>140
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Crispy, golden-fried chicken fillet topped with fresh lettuce, juicy tomato, and a zesty sauce, all in a soft, toasted bun. A satisfying crunch in every bite!
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <button class="btn btn-primary btn-icon">
+          <img src="./assets/images/menu.svg" alt="menu icon">
+          Full menu
+        </button>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #TESTIMONIALS SECTION
+      -->
+
+      <section class="testimonials" id="testimonials" style="justify-items: center;">
+
+        <h2 class="section-title">What They Say</h2>
+        <br>
+        <br>
+
+        
+
+        <div class="testimonials-grid">
+
+          <div class="testimonials-card">
+
+            <h4 class="card-title">Delicious and Memorable!</h4>
+
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+
+            <p class="testimonials-text">
+              "Food Hub never disappoints! The flavors are incredible, and every bite feels like a treat. The attention to detail in each dish is amazing, and you can taste the quality in every ingredient. I always look forward to my next visit—it’s a place that truly stands out!"            </p>
+
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/review1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+
+              <h5 class="customer-name">Thomas Shelby</h5>
+            </div>
+
+          </div>
+
+          <div class="testimonials-card">
+          
+            <h4 class="card-title">Exceptional Service and Taste!</h4>
+          
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          
+            <p class="testimonials-text">
+              "From the friendly staff to the amazing food, everything here is top-notch. The service is quick, and the team is always welcoming and attentive. Food Hub has become my go-to place for a great meal, whether I’m with friends or just looking for a solo treat. Highly recommended!"            </p>
+          
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/review2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+          
+              <h5 class="customer-name">Grace</h5>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+    <!--
+      - #FOOTER
+    -->
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+        <a href="#">
+          <img src="./assets/images/logo-footer.svg" alt="logo" class="footer-brand" width="130">
+        </a>
+
+        <div class="social-link">
+
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+
+        </div>
+
+        <p class="copyright">© 2024 Food Hub by Tejas. All rights reserved.</p>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
